@@ -1,1 +1,0 @@
-const ContactContainer = document.getElementById("ContactContainer");
