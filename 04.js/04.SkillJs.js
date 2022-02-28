@@ -1,0 +1,1 @@
+const SkillContainer = document.getElementById("SkillContainer");

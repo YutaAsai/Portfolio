@@ -1,0 +1,46 @@
+#HeaderContainer{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.6s;
+}
+#HeaderTitle{
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid white;
+    margin: 0;
+    transition: all 0.3s;
+    /* font-size: calc(100vh/2*0.25); */
+}
+#HeaderNavContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: calc(100vh/2*0.25); */
+    /* width: calc(100vw*0.75); */
+    padding-top: 1.5vh;
+    /* font-size: calc(100vh/2*0.2); */
+    transition: all 0.3s;
+}
+.HeaderNavIconContainer{
+    transition: 0.4s;
+    text-align: center;
+}
+.HeaderNavIconContainer:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.HeaderNavIcon{
+    margin: 0;
+    text-align: center;
+}
+.HeaderNavText{
+    text-align: center;
+    margin-top: -1vh;
+    margin-bottom: 0;
+}

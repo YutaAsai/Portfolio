@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YutaAsaiPortfolio</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./03.css/01.AllStyles.css">
+    <link rel="stylesheet" href="./03.css/02.HeaderStyles.css">
+    <link rel="stylesheet" href="./03.css/03.AboutStyles.css">
+    <link rel="stylesheet" href="./03.css/04.SkillStyles.css">
+    <link rel="stylesheet" href="./03.css/05.WorksStyles.css">
+    <link rel="stylesheet" href="./03.css/06.ContactStyles.css">
+    <!-- Webフォント -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="02.favicon/favicon128px.ico">
+</head>
+<body>
+    <header>
+        <img id="IMGTop" class="BackgroundIMG" src="01.img/Robot.jpg">
+        <img id="IMGAbout" class="BackgroundIMG" src="01.img/PC.jpg">
+        <img id="IMGSkill" class="BackgroundIMG" src="01.img/Stone.jpg">
+        <img id="IMGWorks" class="BackgroundIMG" src="01.img/works用.jpg">
+        <img id="IMGContact" class="BackgroundIMG" src="01.img/Contact.jpg">
+        <div id="HeaderContainer">
+            <p id="HeaderTitle">YutaAsaiPortfolio</p>
+            <div id="HeaderNavContainer">
+                <div id="About" class="HeaderNavIconContainer">
+                    <ion-icon class="HeaderNavIcon" name="accessibility-outline"></ion-icon>
+                    <p class="HeaderNavText">About</p>
+                </div>
+                <div id="Skill" class="HeaderNavIconContainer">
+                    <ion-icon class="HeaderNavIcon" name="bulb-outline"></ion-icon>
+                    <p class="HeaderNavText">Skill</p>
+                </div>
+                <div id="Works" class="HeaderNavIconContainer">
+                    <ion-icon class="HeaderNavIcon" name="list-circle-outline"></ion-icon>
+                    <p class="HeaderNavText">Works</p>
+                </div>
+                <div id="Contact" class="HeaderNavIconContainer">
+                    <ion-icon class="HeaderNavIcon" name="mail-outline"></ion-icon>
+                    <p class="HeaderNavText">Contact</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="AboutContainer">
+            <div id="AboutContentContainer">
+                <ion-icon id="IconPerson" name="person-outline"></ion-icon>
+                <div id="AboutText">
+                    <p id="AboutTextName">浅井優太</p>
+                    <p>・プログラマー<br>
+                        ・フロントエンドエンジニア<br>
+                        ・データサイエンティスト</p>
+                    <p>2009〜2015 国立大学・大学院　研究「動画像圧縮符号化」<br>
+                    2015〜 社会人 「物理演算ソフト開発」に携わる</p>
+                    <p>お客様の要望に丁寧かつ迅速に、誠意を持って対応させていただきます。
+                        御社事業発展に少しでも力になれるような行動と提案を致します。
+                        どうぞよろしくお願い致します。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="SkillContainer">
+            <div class="SkillOneContainer">
+                <ion-icon class="SkillIcon" name="logo-python"></ion-icon>
+                <p>Python ★★★★★</p>
+            </div>
+            <div class="SkillOneContainer">
+                <ion-icon class="SkillIcon" name="tv-outline"></ion-icon>
+                <p>C# ★★★★☆</p>
+            </div>
+            <div class="SkillOneContainer">
+                <ion-icon class="SkillIcon" name="logo-html5"></ion-icon>
+                <p>HTML ★★★★★</p>
+            </div>
+            <div class="SkillOneContainer">
+                <ion-icon class="SkillIcon" name="logo-css3"></ion-icon>
+                <p>CSS ★★★★★</p>
+            </div>
+            <div class="SkillOneContainer">
+                <ion-icon class="SkillIcon" name="logo-javascript"></ion-icon>
+                <p>JavaScript ★★★★☆</p>
+            </div>
+        </div>
+        <div id="WorksContainer">
+            <div id="OldimathContainer" class="WorksOneContainer">
+                <img id="OldimathIMG" class="WorksIMG" src="01.img/Oldimath.png">
+                <div class="WorksText">
+                    「Oldimath」音声WebApp<br>
+                    <ul class="WorksUl">
+                        <li>JavaScriptを用いた直感的なUI操作(ツマミ(ドラッグ操作),スイッチ(クリック操作)等)</li>
+                        <li>Apiを用いた音声エフェクトの適用・音声再生</li>
+                        <li>複雑なUIをレスポンシブ対応</li>
+                    </ul>
+                </div>
+                <a href="https://yutaasai.github.io/Oldimath/" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+            <div id="WaveNetContainer" class="WorksOneContainer">
+                <img id="OldimathIMG" class="WorksIMG" src="01.img/WaveNet.png">
+                <div class="WorksText">
+                    「音声機械学習」
+                    <ul class="WorksUl">
+                        <li>GoogleColaboratoryを用いて機械学習を実施</li>
+                        <li>話者分離やノイズ分離等幅広い音源分離学習に対応</li>
+                        <li>学習用音声波形を視覚的に表示・分析</li>
+                    </ul>
+                </div>
+                <a href="https://drive.google.com/file/d/1rEvwS6J_OSUQZciUiqkiPGFONNlCWEQ3/view?usp=sharing" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+            <div id="PortfolioContainer" class="WorksOneContainer">
+                <img id="OldimathIMG" class="WorksIMG" src="01.img/01.Top.png">
+                <div class="WorksText">
+                    「YutaAsaiPortfolio」
+                    <ul class="WorksUl">
+                        <li>CSS,Javascriptを用いた動的な表現</li>
+                        <li>どの端末でも最適な表示を実現するJavascriptでのレスポンシブ表現</li>
+                    </ul>
+                </div>
+                <a href="https://yutaasai.github.io/Portfolio/" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+        </div>
+        <div id="ContactContainer">
+            <div id="ContactContentContainer">
+                <div id="ContactText">
+                    <p id="ContactTextName">Contact</p>
+                    <p id="ContactTextName2">ご依頼・お問い合わせ</p>
+                    <p>お気軽に以下のメールアドレスまでご連絡ください。</p>
+                    <div id="AdressContainer">
+                        <ion-icon id="IconMail" name="Mail-outline"></ion-icon>
+                        <p id="Adress">yuta.asai.music@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- js -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="./04.js/01.AllJs.js"></script>
+    <script src="./04.js/02.HeaderJs.js"></script>
+    <script src="./04.js/03.AboutJs.js"></script>
+    <script src="./04.js/04.SkillJs.js"></script>
+    <script src="./04.js/05.WorksJs.js"></script>
+    <script src="./04.js/06.ContactJs.js"></script>
+</body>
+</html>

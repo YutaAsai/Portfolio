@@ -1,0 +1,52 @@
+#ContactContainer{
+    position: absolute;
+    top: 100vh;
+    left: 100vw;
+    width: 100vw;
+    height: 100vh;
+    z-index: 80;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.8s;
+}
+#ContactContentContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ContactText{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#ContactTextName{
+    font-size: 70px;
+    margin: 0;
+}
+#ContactTextName2{
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+#AdressContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#IconMail{
+    /* display: inline; */
+    text-align: center;
+    font-size: 45px;
+}
+#Adress{
+    font-size: 23px;
+    text-decoration: underline;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 0;
+}

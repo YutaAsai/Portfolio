@@ -1,0 +1,27 @@
+#SkillContainer{
+    position: absolute;
+    top: -100vh;
+    left: -100vw;
+    width: 100vw;
+    height: 100vh;
+    z-index: 80;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.8s;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.SkillOneContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.SkillIcon{
+    font-size: 43px;
+}
+.SkillOneContainer p{
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}

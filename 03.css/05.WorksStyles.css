@@ -1,0 +1,102 @@
+/* 共通 */
+#WorksContainer{
+    position: absolute;
+    top: 0;
+    left: -100vw;
+    width: 100vw;
+    height: 100vh;
+    z-index: 80;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.8s;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.WorksUl{
+    margin: 0;
+}
+/* #OldimathContainer{
+    transition-delay: 0;
+}
+#WaveNetContainer{
+    transition-delay: 0.2s;
+}
+#PortfolioContainer{
+    transition-delay: 0.4s;
+} */
+.WorksOneContainer:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .9);
+}
+.WorksOneContainer a{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* 縦長レイアウト */
+.WorksOneContainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .55);
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: auto;
+    transition: 0.5s;
+}
+.WorksIMG{
+    border-radius: 50%;
+    width: 18vw;
+    height: 18vw;
+    object-fit: cover;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.WorksText{
+    width: 70vw;
+    font-size: 2.8vw;
+}
+
+/* 横長レイアウト */
+@media screen and (orientation: landscape) {
+    #WorksContainer{
+        flex-direction: row;
+    }
+    .WorksOneContainer{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, .55);
+        padding: 15px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+        border-radius: 20px;
+        width: auto;
+        height: 50vh;
+    }
+    .WorksIMG{
+        border-radius: 10px;
+        width: 25vw;
+        height: 18vw;
+        object-fit: cover;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .WorksText{
+        width: 25vw;
+        height: 25vh;
+        font-size: 2vh;
+        margin-top: 20px;
+    }
+}
