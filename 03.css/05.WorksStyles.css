@@ -15,15 +15,6 @@
 .WorksUl{
     margin: 0;
 }
-/* #OldimathContainer{
-    transition-delay: 0;
-}
-#WaveNetContainer{
-    transition-delay: 0.2s;
-}
-#PortfolioContainer{
-    transition-delay: 0.4s;
-} */
 .WorksOneContainer:hover{
     cursor: pointer;
     background-color: rgba(0, 0, 0, .9);

@@ -1,3 +1,4 @@
+/* 共通 */
 #AboutContainer{
     position: absolute;
     top: 0;
@@ -10,30 +11,50 @@
     justify-content: center;
     transition: 0.8s;
 }
+#AboutText p{
+    margin: 0;
+}
+
+/* 縦長レイアウト記述部 */
 #AboutContentContainer{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    flex-direction: column;
 }
 #IconPerson{
     display: inline;
     text-align: center;
-    font-size: 30vw;
     margin-left: auto;
     margin-right: auto;
+    font-size: 22vh;
 }
 #AboutText{
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    width: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-}
-#AboutText p{
-    margin: 0;
+    width: 85vw;
+    height: 40vh;
 }
 #AboutTextName{
-    font-size: 3vw;
+    font-size: 2.8vh;
+}
+
+/* 横長レイアウト記述部 */
+@media screen and (orientation: landscape) {
+    #AboutContentContainer{
+        flex-direction: row;
+    }
+    #IconPerson{
+        font-size: 22vw;
+    }
+    #AboutText{
+        width: 45vw;
+        height: 22vw;
+    }
+    #AboutTextName{
+        font-size: 2.8vw;
+    }
 }
