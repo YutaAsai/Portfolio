@@ -11,10 +11,17 @@
 #HeaderTitle{
     display: block;
     text-align: center;
-    border-bottom: 2px solid white;
+    /* border-bottom: 2px solid rgba(255, 255, 255, 1); */
     margin: 0;
     transition: all 0.3s;
     /* font-size: calc(100vh/2*0.25); */
+}
+hr{
+    color: white;
+    width: 100vw;
+    height: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 #HeaderNavContainer{
     display: flex;
