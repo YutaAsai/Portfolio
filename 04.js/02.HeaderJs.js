@@ -16,6 +16,12 @@ const IMGSkill = document.getElementById("IMGSkill");
 const IMGWorks = document.getElementById("IMGWorks");
 const IMGContact = document.getElementById("IMGContact");
 
+// 要素取得
+const AboutContentContainer = document.getElementById("AboutContentContainer");
+const SkillContainer = document.getElementById("SkillContainer");
+const WorksContainer = document.getElementById("WorksContainer");
+const ContactContainer = document.getElementById("ContactContainer");
+
 window.addEventListener('load', ()=>{
     HeaderSize();
 });
